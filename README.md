@@ -1,8 +1,19 @@
-# React + Vite
+# Blog Post Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple blog post management dashboard built with **React.js** and **Tailwind CSS**. The dashboard allows the admin to view, create, edit, and delete blog posts. The project fetches blog data using the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) and handles CRUD operations in the app.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View a list of blog posts with details such as ID and title.
+- Create a new post.
+- Edit an existing post.
+- Delete a post with a confirmation prompt.
+- Responsive design using **Tailwind CSS** for styling.
+
+## Technologies Used
+
+- **React.js**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for creating modern designs.
+- **JSONPlaceholder API**: A free online REST API for testing and prototyping.
+
+
